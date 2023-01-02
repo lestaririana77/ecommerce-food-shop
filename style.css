@@ -41,7 +41,7 @@
     font-weight: 700;
  }
  .main{
-   background: url(skincare-coconut-oil-therapy-exotic.jpg)no-repeat;
+   background: url(./img/healthy-lunch-go-packed-lunch-box+copy.jpg)no-repeat;
    background-size: cover;
    height: 100vh;
    background-position: 50% 50%;
@@ -60,4 +60,11 @@
    color: white;
    font-weight: 700;
    border-radius: 60px;
+ }
+ .btn1:hover{
+  background-color: rgb(223, 26, 92);
+  transition: 0.5s;
+ }
+ .h1{
+   font-weight: 700;
  }
