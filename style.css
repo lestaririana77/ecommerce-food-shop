@@ -68,3 +68,51 @@
  .h1{
    font-weight: 700;
  }
+ .card:hover{
+   box-shadow: -2px -1px 25px -4px rgba(0,0,0,0.75);
+-webkit-box-shadow: -2px -1px 25px -4px rgba(0,0,0,0.75);
+-moz-box-shadow: -2px -1px 25px -4px rgba(0,0,0,0.75);
+transition: 0.5s;
+ }
+ .apple{
+   background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(./img/smilling.jpg)no-repeat;
+   background-size: cover;
+   height: 80vh;
+   width: 100%;
+ }
+ .apple h1{
+   font-family: 'Lobster', cursive;
+ }
+ .news{
+   background-color: black;
+   color: white;
+ }
+ .btn2{
+   height: 45px;
+   width: 100px;
+   background: white;
+   margin-left: -10px;
+   border: 2px solid white;
+   font-weight: 600;
+ }
+ .news input{
+   height: 44px;
+   width: 55%;
+   border: 2px solid white;
+   background: black;
+   outline: none;
+   color: white;
+   margin-top: 20px;
+   font-weight: 600;
+ }
+ .news::placeholder{
+   color: white;
+ }
+ .news p{
+   margin: 0;
+ }
+ .fab{
+   font-size: 2.5rem;
+   cursor: pointer;
+   padding-right: 5px;
+ }
